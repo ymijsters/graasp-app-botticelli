@@ -251,8 +251,7 @@ const MessagesPane = ({
         display: 'flex',
         flexDirection: 'column',
         backgroundColor: 'white',
-        height: readOnly ? 'fit-content' : '100vh',
-        maxHeight: '100vh',
+        minHeight: readOnly ? 'fit-content' : '500px',
       }}
       data-cy={MESSAGE_PANE_CY}
     >
